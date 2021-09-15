@@ -21,9 +21,7 @@ public class UniqueRow {
         {
             int flag = 0;
 
-            // Check if there is similar column
-            // is already printed, i.e if i and
-            // jth column match.
+           
             for(int j = 0; j < i; j++)
             {
                 flag = 1;
